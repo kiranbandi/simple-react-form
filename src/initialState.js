@@ -5,26 +5,97 @@ export default {
             elements: [{
                 'key': 'firstName',
                 inputType: 'text',
-                'label': 'Please enter First Name'
+                'label': 'First Name'
             }, {
                 'key': 'lastName',
                 inputType: 'text',
-                'label': 'Please enter Last Name'
+                'label': 'Last Name'
             }, {
-                'key': 'middleName',
+                'key': 'fathersName',
                 inputType: 'text',
-                'label': 'Please enter Middle Name'
+                'label': 'Father\'s Name'
+            }, {
+                'key': 'mothersName',
+                inputType: 'text',
+                'label': 'Mother\'s Name'
+            }, {
+                'key': 'dob',
+                inputType: 'date',
+                'label': 'Date of Birth'
             }]
         }, {
-            name: "Address Information",
+            name: "Address Details",
             elements: [{
-                'key': 'City',
-                inputType: 'text',
-                'label': 'Please enter City Name'
+                'key': 'addressPermSubHeading',
+                inputType: 'subHeading',
+                'label': 'Permanent Address'
             }, {
-                'key': 'HouseNo',
+                'key': 'permStreet1',
                 inputType: 'text',
-                'label': 'Please enter House Number'
+                'label': 'Street 1'
+            }, {
+                'key': 'permStreet2',
+                inputType: 'text',
+                'label': 'Street 2'
+            }, {
+                'key': 'permCity',
+                inputType: 'text',
+                'label': 'City'
+            }, {
+                'key': 'permState',
+                inputType: 'text',
+                'label': 'State'
+            }, {
+                'key': 'permZip',
+                inputType: 'text',
+                'label': 'ZIP/Postal Code'
+            }, {
+                'key': 'addressPresSubHeading',
+                inputType: 'subHeading',
+                'label': 'Present Address'
+            }, {
+                'key': 'presStreet1',
+                inputType: 'text',
+                'label': 'Street 1'
+            }, {
+                'key': 'presStreet2',
+                inputType: 'text',
+                'label': 'Street 2'
+            }, {
+                'key': 'presCity',
+                inputType: 'text',
+                'label': 'City'
+            }, {
+                'key': 'presState',
+                inputType: 'text',
+                'label': 'State'
+            }, {
+                'key': 'presZip',
+                inputType: 'text',
+                'label': 'ZIP/Postal Code'
+            }]
+        }, {
+            name: "Education Details",
+            elements: [{
+                'key': 'examDummy',
+                inputType: 'text',
+                'label': 'Enter Dummy Exam Name'
+            }, {
+                'key': 'examScore',
+                inputType: 'customExamScoreInput',
+                'label': 'Exam Score'
+            }]
+        },
+        {
+            name: "Experience Details",
+            elements: [{
+                'key': 'expDummy',
+                inputType: 'text',
+                'label': 'Enter Dummy Experience Name'
+            }, {
+                'key': 'ExperienceScore',
+                inputType: 'customExperienceInput',
+                'label': 'Experience Score'
             }]
         }],
         "data": {}
